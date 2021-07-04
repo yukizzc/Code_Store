@@ -1,0 +1,13 @@
+data.xls是金字塔里指标复制出来的数据，代码如下
+o_:open;
+h_:high;
+l_:low;
+c_:close;
+v_:VOL;
+oi_:openint;
+
+
+.xls是历史数据，文件名必须以rb00.xls类似
+read_data是读取数据模块，目前只支持单一品种的
+engine是回测模块用来被继承的
+strategie_是策略实现实例
